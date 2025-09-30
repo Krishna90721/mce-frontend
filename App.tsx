@@ -13,6 +13,8 @@ import StudentRegister from "./pages/StudentRegister";
 import AdminLogin from "./pages/AdminLogin";
 import StudentDashboard from "./pages/StudentDashboard";
 import AdminDashboard from "./pages/AdminDashboard";
+console.log("API Base URL:", import.meta.env.VITE_API_BASE_URL);
+
 
 const queryClient = new QueryClient();
 
